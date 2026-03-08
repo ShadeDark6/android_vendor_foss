@@ -1,0 +1,20 @@
+<permissions>
+
+    <privapp-permissions package="org.fossify.phone">
+        <permission name="android.permission.READ_CALL_LOG"/>
+        <permission name="android.permission.WRITE_CALL_LOG"/>
+        <permission name="android.permission.CALL_PHONE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="org.fossify.messages">
+        <permission name="android.permission.SEND_SMS"/>
+        <permission name="android.permission.RECEIVE_SMS"/>
+        <permission name="android.permission.READ_SMS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="org.fossify.contacts">
+        <permission name="android.permission.READ_CONTACTS"/>
+        <permission name="android.permission.WRITE_CONTACTS"/>
+    </privapp-permissions>
+
+</permissions>
